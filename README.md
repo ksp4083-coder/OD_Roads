@@ -31,15 +31,15 @@
 
 ### 2-2. 모델 학습 및 검증
 - **검증 결과**
-  <br>
-  | 모델 | 에폭 | 배치 크기 | 학습 시간 | 모델 구조 | mAP@50 |                                       
-  |:-----:|:-----:|:-----:|:------:|:---------:|:---------:|:------:|
-  | yolov8n.pt | 100 | 64 | 21.67 hours | 225 layers, 3,012,798 parameters | 0.71 |
-  | yolov8s.pt | 100 | 64 | 22.23 hours | 225 layers, 11,139,470 parameters | 0.821 |
-  | yolov8m.pt | 100 | 64 | 23.34 hours | 295 layers, 25,862,110 parameters | 0.866 |
-  | yolov8l.pt | 100 | 64 | 24.17 hours | 365 layers, 43,637,550 parameters | 0.888 |
-  | yolov8x.pt | 100 | 64 | 28.61 hours | 365 layers, 68,162,238 parameters | 0.901 |
-  | yolov8x.pt | 620 | 64 | 약 7일 21시간 | 365 layers, 68,162,238 parameters | 0.933 |
+
+| 모델 | 에폭 | 배치 크기 | 학습 시간 | 모델 구조 | mAP@50 |                                       
+|:-----:|:-----:|:-----:|:------:|:---------:|:---------:|:------:|
+| yolov8n.pt | 100 | 64 | 21.67 hours | 225 layers, 3,012,798 parameters | 0.71 |
+| yolov8s.pt | 100 | 64 | 22.23 hours | 225 layers, 11,139,470 parameters | 0.821 |
+| yolov8m.pt | 100 | 64 | 23.34 hours | 295 layers, 25,862,110 parameters | 0.866 |
+| yolov8l.pt | 100 | 64 | 24.17 hours | 365 layers, 43,637,550 parameters | 0.888 |
+| yolov8x.pt | 100 | 64 | 28.61 hours | 365 layers, 68,162,238 parameters | 0.901 |
+| yolov8x.pt | 620 | 64 | 약 7일 21시간 | 365 layers, 68,162,238 parameters | 0.933 |
 
 <br>
 <br>
