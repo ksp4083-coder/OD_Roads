@@ -28,7 +28,7 @@
 <br>
 <br>
 
-### 2. Base 모델 학습
+### 2. 모델 학습
 <img width="659" height="152" alt="Image" src="https://github.com/user-attachments/assets/ccdf299f-6ac9-409e-ad97-67a14824e575" />
 
 <br>
