@@ -29,13 +29,16 @@
 <br>
 <br>
 
-### 2-2. 모델 학습 결과
+### 2-2. 모델 학습 및 검증
+- **모델 학습**
+- **모델 검증**
 <img width="659" height="152" alt="Image" src="https://github.com/user-attachments/assets/ccdf299f-6ac9-409e-ad97-67a14824e575" />
 
 <br>
 <br>
 
-### 2-3. 최종 모델 학습 결과
+- **최종 모델 학습** 
+- **최종 모델 검증**
 <img width="660" height="67" alt="Image" src="https://github.com/user-attachments/assets/968cfbeb-468d-4a30-9d99-bb9eaa671482" />
 
 <br>
