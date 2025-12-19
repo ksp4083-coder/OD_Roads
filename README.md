@@ -3,9 +3,8 @@
 ## 1. 사용 데이터셋
 - 공모전에서 제공한 한국교통안전공단 ['자율주행 공개데이터셋'](https://challenge.gcontest.co.kr/template/m/frame/downloadlist/16335?q=1368)(40.9GB)
 - 1920 x 1200 크기 도로 주행 이미지와 객체 위치 정보 파일(.json)
-  - 학습 데이터셋 : 80,000(.jpg), 80,000(.json)
-  - 검증 데이터셋 : 10,000(.jpg), 10,000(.json) 
-  - 테스트 데이터셋 : 10,000(.jpg), 10,000(.json)
+  - training : 80,000(.jpg), 80,000(.json)
+  - validation : 10,000(.jpg), 10,000(.json) 
 
 - json 파일 속성
 
