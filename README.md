@@ -15,7 +15,7 @@
 
 ## 2. 개발 과정
 ### 2-1. 객체 위치 정보 정규화
-- COCO dataset에서 사전 학습된 YOLO 모델을 불러와 Custome 데이터셋을 학습시키기 위해 객체 위치 정보 Bounding Box 값을 YOLO 형식인 0 ~ 1 사이의 값으로 변환
+- COCO dataset에서 사전 학습 된 YOLO 모델을 불러와 Custome 데이터셋을 학습시키기 위해 객체 위치 정보 Bounding Box 값을 YOLO 형식인 0 ~ 1 사이의 값으로 변환
 - 객체 위치 정보 파일(.json) 구조 예시
 <img width="333" height="432" alt="Image" src="https://github.com/user-attachments/assets/c8b47ed1-5f2b-4110-9e6b-4ad034b28de7" />
 
