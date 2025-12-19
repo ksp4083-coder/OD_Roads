@@ -28,19 +28,19 @@
 <br>
 <br>
 
-### 2. 모델 학습 결과
+### 2-2. 모델 학습 결과
 <img width="659" height="152" alt="Image" src="https://github.com/user-attachments/assets/ccdf299f-6ac9-409e-ad97-67a14824e575" />
 
 <br>
 <br>
 
-### 3. 최종 모델 학습 결과
+### 2-3. 최종 모델 학습 결과
 <img width="660" height="67" alt="Image" src="https://github.com/user-attachments/assets/968cfbeb-468d-4a30-9d99-bb9eaa671482" />
 
 <br>
 <br>
 
-### 4. 시연 영상
+### 2-4. 직접 촬영한 주간/야간 도로 주행 영상에 모델 적용 및 객체 탐지 수행
 - [test dataset](https://github.com/user-attachments/assets/715ef921-bc30-4d1c-8d89-b6caf0dff56a)
 
 - [daytime](https://github.com/user-attachments/assets/1867900f-da03-4578-b419-428d62d5cc6e)
