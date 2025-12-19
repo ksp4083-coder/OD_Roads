@@ -40,7 +40,7 @@
 <br>
 <br>
 
-### 2-4. 직접 촬영한 주간/야간 도로 주행 영상에 모델 적용 및 객체 탐지 수행
+### 2-4. 직접 촬영한 주간/야간 도로 주행 영상에서 객체 탐지 수행
 - [test dataset](https://github.com/user-attachments/assets/715ef921-bc30-4d1c-8d89-b6caf0dff56a)
 
 - [daytime](https://github.com/user-attachments/assets/1867900f-da03-4578-b419-428d62d5cc6e)
