@@ -42,7 +42,7 @@
 
 ### 2-4. 직접 촬영한 주간/야간 도로 주행 영상에서 객체 탐지 수행
 
-- [주간](https://github.com/user-attachments/assets/1867900f-da03-4578-b419-428d)
+- [주간](https://github.com/user-attachments/assets/1867900f-da03-4578-b419-428d62d5cc6e)
 
 - [야간](https://github.com/user-attachments/assets/45fd9091-5d0a-4dc5-b9da-cfb9ff2c104a)
 
