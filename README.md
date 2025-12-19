@@ -7,7 +7,8 @@
   - 검증 데이터 세트 : 10,000 images 
   - 테스트 데이터 세트 : 10,000 images
 
-- json 파일 속성 예)
+- json 파일 속성
+
 
   <img width="590" height="182" alt="Image" src="https://github.com/user-attachments/assets/69e214f6-9391-41f0-a44a-8d6c3b80aba1" />
 
