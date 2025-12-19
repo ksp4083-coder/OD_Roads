@@ -29,22 +29,21 @@
 <br>
 <br>
 
-### 2-2. 모델 학습 및 검증
-- **모델 학습**
-- **모델 검증**
+### 2-2. 모델 학습
+### 2-3. 모델 검증
 <img width="659" height="152" alt="Image" src="https://github.com/user-attachments/assets/ccdf299f-6ac9-409e-ad97-67a14824e575" />
 
 <br>
 <br>
 
-- **최종 모델 학습** 
-- **최종 모델 검증**
+### 2-4. 최종 모델 학습
+### 2-5. 최종 모델 검증
 <img width="660" height="67" alt="Image" src="https://github.com/user-attachments/assets/968cfbeb-468d-4a30-9d99-bb9eaa671482" />
 
 <br>
 <br>
 
-### 2-4. 모델 시연 영상
+### 2-6. 모델 시연 영상
 - 개발한 최종 모델을 활용해 직접 촬영한 주간/야간 도로 주행 영상에서 객체 탐지 수행
 
 - [주간](https://github.com/user-attachments/assets/1867900f-da03-4578-b419-428d62d5cc6e)
