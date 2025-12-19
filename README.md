@@ -31,8 +31,14 @@
 
 ### 2-2. 모델 학습 및 검증
 - 검증 결과
-<img width="659" height="152" alt="Image" src="https://github.com/user-attachments/assets/ccdf299f-6ac9-409e-ad97-67a14824e575" />
-<img width="660" height="67" alt="Image" src="https://github.com/user-attachments/assets/968cfbeb-468d-4a30-9d99-bb9eaa671482" />
+| Model | epoch | batch | mAP@50 | 학습 시간 | 모델 구조 | 파일명 |                                       
+|:-----:|:-----:|:-----:|:------:|:---------:|:---------:|:------:|
+| yolov8n.pt | 100 | 64 | 0.71 | 21.67 hours | 225 layers, 3,012,798 parameters | 8n_100.pt |
+| yolov8s.pt | 100 | 64 | 0.821 | 22.23 hours | 225 layers, 11,139,470 parameters | 8s_100.pt |
+| yolov8m.pt | 100 | 64 | 0.866 | 23.34 hours | 295 layers, 25,862,110 parameters | 8m_100.pt |
+| yolov8l.pt | 100 | 64 | 0.888 | 24.17 hours | 365 layers, 43,637,550 parameters | 8l_100.pt |
+| yolov8x.pt | 100 | 64 | 0.901 | 28.61 hours | 365 layers, 68,162,238 parameters | 8x_100.pt |
+| yolov8x.pt | 620 | 64 | 0.933 | 약 7일 21시간 | 365 layers, 68,162,238 parameters | 8x_620.pt |
 
 <br>
 <br>
