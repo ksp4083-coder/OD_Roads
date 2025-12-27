@@ -5,12 +5,12 @@
 - 이미지 - 100,000장
 - 가공 데이터 - 100,000장
 - 데이터 구성 비율
-  - training : validation : test = 8 : 1 : 1 <br><br>
+  - training : validation : test = 8 : 1 : 1 <br>
   <p align="center">
   <img width="153.6" height="237.6" alt="image" src="https://github.com/user-attachments/assets/a0ae578e-50ec-4ebf-ad59-5907ede22929" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img width="128.4" height="232.8" alt="image" src="https://github.com/user-attachments/assets/44769e53-d3fd-4ef6-ab44-2203954dc7aa" />
-  </p> <br><br>
+  </p> <br>
 - json 파일 내용 설명 <br>
   <p align="center">
   <img width="594" height="187.8" alt="image" src="https://github.com/user-attachments/assets/9e9b4da5-d74c-4406-a31c-176b8cda1cee" />
