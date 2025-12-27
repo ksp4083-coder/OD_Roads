@@ -5,7 +5,7 @@
 - 이미지 - 100,000장
 - 가공 데이터 - 100,000장
 - 데이터 구성 비율
-  - training : validation : test = 8 : 1 : 1 <br>
+  - training : validation : test = 8 : 1 : 1 <br><br>
   <p align="center">
   <img width="128" height="198" alt="image" src="https://github.com/user-attachments/assets/a0ae578e-50ec-4ebf-ad59-5907ede22929" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
