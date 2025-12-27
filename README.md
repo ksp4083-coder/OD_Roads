@@ -42,7 +42,7 @@ x_{\text{norm}} = \frac{x}{W_{\text{img}}}, \quad w_{\text{norm}} = \frac{w}{W_{
 $$<br>
 $$ \large
 \begin{aligned}
-y_{\text{norm}} = \frac{y}{H_{\text{img}}}, \quad h_{\text{norm}} = \frac{h}{H_{\text{img}}}
+y_{\text{norm}} = \frac{y}{H}, \quad h_{\text{norm}} = \frac{h}{H}
 \end{aligned}
 $$
   
