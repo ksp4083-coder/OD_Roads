@@ -2,7 +2,11 @@
 
 ## 1. 사용한 데이터
 - 공모전에 참가하여 수집한 한국교통안전공단 ['자율주행 공개데이터셋'](https://challenge.gcontest.co.kr/template/m/frame/downloadlist/16335?q=1368)(40.9GB)
-- 10만장의 이미지와 10종의 객체 위치 정보가 저장된 10만개의 json 파일 <br><br>
+- 10만장의 이미지와 10종의 객체 위치 정보가 저장된 10만개의 json 파일
+- 이미지 - 100,000장
+- 가공 데이터 - 100,000장
+- 데이터 구성 비율
+  - training : validation : test = 8 : 1 : 1 <br><br>
   <img width="128" height="198" alt="image" src="https://github.com/user-attachments/assets/a0ae578e-50ec-4ebf-ad59-5907ede22929" />
   <img width="107" height="194" alt="image" src="https://github.com/user-attachments/assets/44769e53-d3fd-4ef6-ab44-2203954dc7aa" />
 
