@@ -11,7 +11,7 @@
   <img width="107" height="194" alt="image" src="https://github.com/user-attachments/assets/44769e53-d3fd-4ef6-ab44-2203954dc7aa" />
   </p> <br><br>
 
-  | 데이터 디렉토리 구조 | 클래스 리스트 (Classes) |
+| 데이터 디렉토리 구조 | 클래스 리스트 (Classes) |
 | :---: | :---: |
 | <img width="150" alt="image" src="https://github.com/user-attachments/assets/a0ae578e-50ec-4ebf-ad59-5907ede22929" /> | <img width="120" alt="image" src="https://github.com/user-attachments/assets/44769e53-d3fd-4ef6-ab44-2203954dc7aa" /> |
 
