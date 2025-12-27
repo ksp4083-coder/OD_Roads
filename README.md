@@ -1,4 +1,4 @@
-# YOLO : 도로 주행 객체 탐지>
+# Driving Object Detection Using YOLO
 
 ## 1. Used data
 - 공모전에서 제공한 한국교통안전공단 ['자율주행 공개데이터셋'](https://challenge.gcontest.co.kr/template/m/frame/downloadlist/16335?q=1368)(40.9GB)
