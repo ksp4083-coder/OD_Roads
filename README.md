@@ -1,8 +1,8 @@
 # YOLOv8을 활용한 도로 주행 객체 탐지
 
-## 1. Used data
+## 1. 사용한 데이터
 - 공모전에 참가하여 수집한 한국교통안전공단 ['자율주행 공개데이터셋'](https://challenge.gcontest.co.kr/template/m/frame/downloadlist/16335?q=1368)(40.9GB)
-- 도로 주행 중 촬영된 10만장의 이미지와 각각의 이미지에 10종 객체의 위치 정보가 표기(라벨링)된 객체 위치 정보 json 파일
+- 10만장의 이미지와 10종의 객체 위치 정보가 저장된 10만개의 json 파일
   - training : 80,000(.jpg), 80,000(.json)
   - validation : 10,000(.jpg), 10,000(.json) 
 
