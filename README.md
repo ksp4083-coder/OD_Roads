@@ -10,10 +10,10 @@
   <img width="153.6" height="237.6" alt="image" src="https://github.com/user-attachments/assets/a0ae578e-50ec-4ebf-ad59-5907ede22929" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img width="128.4" height="232.8" alt="image" src="https://github.com/user-attachments/assets/44769e53-d3fd-4ef6-ab44-2203954dc7aa" />
-</p> <br><br>
-- json 파일 내용 설명
+  </p> <br><br>
+- json 파일 내용 설명 <br>
   <p align="center">
-  <img width="990" height="313" alt="image" src="https://github.com/user-attachments/assets/9e9b4da5-d74c-4406-a31c-176b8cda1cee" />
+  <img width="495" height="156.5" alt="image" src="https://github.com/user-attachments/assets/9e9b4da5-d74c-4406-a31c-176b8cda1cee" />
   </p>
 
 
