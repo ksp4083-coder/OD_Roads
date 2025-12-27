@@ -24,12 +24,12 @@
 
 $$ \large
 \begin{aligned}
-x_{\text{center}} = \frac{x_{\min} + x_{\max}}{2}, \quad y_{\text{center}} = \frac{y_{\min} + y_{\max}}{2}
+x_{\text{center}} = \frac{x_{\min} + x_{\max}}{2}, \quad w_{\text{BBox}} = x_{\max} - x_{\min}
 \end{aligned}
 $$<br>
 $$ \large
 \begin{aligned}
-w_{\text{BBox}} = x_{\max} - x_{\min}, \quad h_{\text{BBox}} = y_{\max} - y_{\min}
+y_{\text{center}} = \frac{y_{\min} + y_{\max}}{2}, \quad h_{\text{BBox}} = y_{\max} - y_{\min}
 \end{aligned}
 $$
 
@@ -37,12 +37,12 @@ $$
 
 $$ \large
 \begin{aligned}
-x_{\text{norm}} = \frac{x_{\text{center}}}{W_{\text{img}}}, \quad y_{\text{norm}} = \frac{y_{\text{center}}}{H_{\text{img}}}
+x_{\text{norm}} = \frac{x_{\text{center}}}{W_{\text{img}}}, \quad w_{\text{norm}} = \frac{w_{\text{BBox}}}{W_{\text{img}}}
 \end{aligned}
 $$<br>
 $$ \large
 \begin{aligned}
-w_{\text{norm}} = \frac{w_{\text{BBox}}}{W_{\text{img}}}, \quad h_{\text{norm}} = \frac{h_{\text{BBox}}}{H_{\text{img}}}
+y_{\text{norm}} = \frac{y_{\text{center}}}{H_{\text{img}}}, \quad h_{\text{norm}} = \frac{h_{\text{BBox}}}{H_{\text{img}}}
 \end{aligned}
 $$
   
