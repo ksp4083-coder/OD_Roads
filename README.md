@@ -16,11 +16,13 @@
   <img width="594" height="187.8" alt="image" src="https://github.com/user-attachments/assets/9e9b4da5-d74c-4406-a31c-176b8cda1cee" />
   </p>
 
-## 2. Development Process
-### 2-1. Data Normarlization
+## 2. Methdology
+### 2.1. Data Preprocessing
 - 데이터 전처리.ipynb
-- COCO dataset에서 사전 학습 된 YOLO 모델을 불러와 객체 탐지 모델 학습을 위한 Bounding Box 값 변환 과정
-- 값은 0 ~ 1 사이로 정규화
+- 객체 탐지 YOLOv8 모델 학습을 위한 데이터 전처리 과정
+- 가공된 객체 위치 정보  0 ~ 1 사이로 정규화
+- 아래와 같은 정규화 식을 Python 코드로 구현
+- 정규화 식
 - 객체 위치 정보 파일 예)
 <img width="333" height="432" alt="Image" src="https://github.com/user-attachments/assets/c8b47ed1-5f2b-4110-9e6b-4ad034b28de7" />
 
