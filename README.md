@@ -24,25 +24,12 @@
 
 $$ \large
 \begin{aligned}
-x = \frac{x_{\min} + x_{\max}}{2}, \quad w = x_{\max} - x_{\min}
+x_{\text{norm}} = \frac{x_{\text{center}}{W_{\text{img}}}, \quad w_{\text{norm}} = \frac{w_{\text{BBox}}{W_{\text{img}}}
 \end{aligned}
 $$<br>
 $$ \large
 \begin{aligned}
-y = \frac{y_{\min} + y_{\max}}{2}, \quad h = y_{\max} - y_{\min}
-\end{aligned}
-$$
-
-<br>
-
-$$ \large
-\begin{aligned}
-x_{\text{norm}} = \frac{x}{W_{\text{img}}}, \quad w_{\text{norm}} = \frac{w}{W_{\text{img}}}
-\end{aligned}
-$$<br>
-$$ \large
-\begin{aligned}
-y_{\text{norm}} = \frac{y}{H}, \quad h_{\text{norm}} = \frac{h}{H}
+y_{\text{norm}} = \frac{y_{\text{center}}{H_{\text{img}}, \quad h_{\text{norm}} = \frac{h_{\text{BBox}}{H_{\text{img}}
 \end{aligned}
 $$
   
