@@ -1,6 +1,6 @@
 # Driving Object Detection Using YOLOv8
 
-## 1. Used Data
+## 1. Dataset
 - 공모전에 참가하여 수집한 한국교통안전공단 ['자율주행 공개데이터셋'](https://challenge.gcontest.co.kr/template/m/frame/downloadlist/16335?q=1368)
 - 이미지 - 100,000장
 - 가공 데이터 - 100,000장
@@ -16,8 +16,8 @@
   <img width="594" height="187.8" alt="image" src="https://github.com/user-attachments/assets/9e9b4da5-d74c-4406-a31c-176b8cda1cee" />
   </p>
 
-## 2. Progress
-### 2-1. Normarlization
+## 2. Development Process
+### 2-1. Data Normarlization
 - 데이터 전처리.ipynb
 - COCO dataset에서 사전 학습 된 YOLO 모델을 불러와 객체 탐지 모델 학습을 위한 Bounding Box 값 변환 과정
 - 값은 0 ~ 1 사이로 정규화
