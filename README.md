@@ -25,6 +25,7 @@
 $$ \large
 \begin{aligned}
 x_{\text{center}} = \frac{x_{\min} + x_{\max}}{2}, \quad y_{\text{center}} = \frac{y_{\min} + y_{\max}}{2}
+\end{aligned}
 $$<br>
 $$ \large
 \begin{aligned}
@@ -34,6 +35,7 @@ $$<br>
 $$ \large
 \begin{aligned}
 x_{\text{norm}} = \frac{x_{\text{center}}}{W_{\text{img}}}, \quad y_{\text{norm}} = \frac{y_{\text{center}}}{H_{\text{img}}}
+\end{aligned}
 $$<br>
 $$ \large
 \begin{aligned}
