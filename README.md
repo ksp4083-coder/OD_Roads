@@ -8,18 +8,9 @@
   - training : validation : test = 8 : 1 : 1 <br><br>
   <p align="center">
   <img width="128" height="198" alt="image" src="https://github.com/user-attachments/assets/a0ae578e-50ec-4ebf-ad59-5907ede22929" />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img width="107" height="194" alt="image" src="https://github.com/user-attachments/assets/44769e53-d3fd-4ef6-ab44-2203954dc7aa" />
 </p> <br><br>
-
-<div align="center">
-
-| 폴더 구성 | clas 종류 |
-| :--- | :--- |
-| <p align="center"><img width="150" alt="image" src="https://github.com/user-attachments/assets/a0ae578e-50ec-4ebf-ad59-5907ede22929" /></p> | <p align="center"><img width="120" alt="image" src="https://github.com/user-attachments/assets/44769e53-d3fd-4ef6-ab44-2203954dc7aa" /></p> |
-
-</div>
-
 
 
 - json 파일 속성
