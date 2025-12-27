@@ -24,8 +24,8 @@
 
   $$ \large
   \begin{aligned}
-  x_{\text{center}} &= \frac{x_{\min} + x_{\max}}{2} \\
-  y_{\text{center}} &= \frac{y_{\min} + y_{\max}}{2}
+  x_{\text{center}} = \frac{x_{\min} + x_{\max}}{2} \\
+  y_{\text{center}} = \frac{y_{\min} + y_{\max}}{2}
   \end{aligned}
   $$
   
