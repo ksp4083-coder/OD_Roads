@@ -24,10 +24,10 @@
 
   $$ \large
   \begin{aligned}
-  x_{\text{center}} = \frac{x_{\min} + x_{\max}}{2}, \quad y_{\text{center}} = \frac{y_{\min} + y_{\max}}{2}, \\
-  w_{\text{BBox}} = x_{\max} - x_{\min}, \quad h_{\text{BBox}} = h_{\max} - h_{\min} \\ \\
-  x_{\text{norm}} = \frac{x_{\text{center}}}{W_{\text{img}}}, \quad y_{\text{norm}} = \frac{y_{center}}{H_\text{img}}, \\
-  w_{\text{norm}} = \frac{w_\text{BBox}}{W_\text{img}}, \quad h_{\text{norm}} = \frac{h_\text{BBox}}{H_\text{img}}
+  x_{\text{center}} = \frac{x_{\min} + x_{\max}}{2}, \quad y_{\text{center}} = \frac{y_{\min} + y_{\max}}{2} \\
+  w_{\text{BBox}} = x_{\max} - x_{\min}, \quad h_{\text{BBox}} = y_{\max} - y_{\min} \\[2em]
+x_{\text{norm}} = \frac{x_{\text{center}}}{W_{\text{img}}}, \quad y_{\text{norm}} = \frac{y_{\text{center}}}{H_{\text{img}}} \\
+  w_{\text{norm}} = \frac{w_{\text{BBox}}}{W_{\text{img}}}, \quad h_{\text{norm}} = \frac{h_{\text{BBox}}}{H_{\text{img}}}
   \end{aligned}
   $$
   
