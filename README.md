@@ -32,7 +32,9 @@ $$ \large
 w_{\text{BBox}} = x_{\max} - x_{\min}, \quad h_{\text{BBox}} = y_{\max} - y_{\min}
 \end{aligned}
 $$
-<br><br>
+
+<br>
+
 $$ \large
 \begin{aligned}
 x_{\text{norm}} = \frac{x_{\text{center}}}{W_{\text{img}}}, \quad y_{\text{norm}} = \frac{y_{\text{center}}}{H_{\text{img}}}
