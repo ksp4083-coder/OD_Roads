@@ -32,15 +32,6 @@ $$ \large
 y_{\text{norm}} = \frac{y_{\text{center}}}{H_{\text{img}}}, \quad h_{\text{norm}} = \frac{h_{\text{BBox}}}{H_{\text{img}}}
 \end{aligned}
 $$
-  
-<br>
-<br>
-
-- 변환 결과 예)
-<img width="247" height="130" alt="1" src="https://github.com/user-attachments/assets/e4e16ba8-8d67-4eb5-8e54-528da78cacb0" />
-
-<br>
-<br>
 
 ### 2-2. 모델 학습 및 검증
 - **검증 결과** <br>
