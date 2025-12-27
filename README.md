@@ -21,9 +21,6 @@
 - 객체 탐지 YOLOv8 모델 학습을 위한 데이터 전처리 과정
 - 가공된 객체 위치 정보 Bounding Box 좌표를 0 ~ 1 사이로 정규화
 - 정규화 식은 아래와 같으며 Python 코드로 구현
-- 정규화 식
-- 객체 위치 정보 파일 예)
-<img width="333" height="432" alt="Image" src="https://github.com/user-attachments/assets/c8b47ed1-5f2b-4110-9e6b-4ad034b28de7" />
 
 <br>
 <br>
