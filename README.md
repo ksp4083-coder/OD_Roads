@@ -14,7 +14,7 @@
 <br>
 
 ## 2. Progress
-### 2-1. 객체 위치 정보 정규화
+### 2-1. Normarlization
 - 데이터 전처리.ipynb
 - COCO dataset에서 사전 학습 된 YOLO 모델을 불러와 객체 탐지 모델 학습을 위한 Bounding Box 값 변환 과정
 - 값은 0 ~ 1 사이로 정규화
