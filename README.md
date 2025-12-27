@@ -1,6 +1,6 @@
 # YOLO : 도로 주행 객체 탐지>
 
-## 1. 데이터
+## 1. Used data
 - 공모전에서 제공한 한국교통안전공단 ['자율주행 공개데이터셋'](https://challenge.gcontest.co.kr/template/m/frame/downloadlist/16335?q=1368)(40.9GB)
 - 도로 주행 중 촬영된 10만장의 이미지와 각각의 이미지에 10종 객체의 위치 정보가 표기(라벨링)된 객체 위치 정보 json 파일
   - training : 80,000(.jpg), 80,000(.json)
