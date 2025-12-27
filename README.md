@@ -1,4 +1,4 @@
-# Driving Object Detection Using YOLO
+# Driving Object Detection Using YOLOv8
 
 ## 1. Used data
 - 공모전에 참가하여 수집한 한국교통안전공단 ['자율주행 공개데이터셋'](https://challenge.gcontest.co.kr/template/m/frame/downloadlist/16335?q=1368)(40.9GB)
