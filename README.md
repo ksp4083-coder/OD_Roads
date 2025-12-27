@@ -1,7 +1,7 @@
 # YOLOv8을 활용한 도로 주행 객체 탐지
 
 ## 1. 사용한 데이터
-- 공모전에 참가하여 수집한 한국교통안전공단 ['자율주행 공개데이터셋'](https://challenge.gcontest.co.kr/template/m/frame/downloadlist/16335?q=1368)(40.9GB)
+- 공모전에 참가하여 수집한 한국교통안전공단 ['자율주행 공개데이터셋'](https://challenge.gcontest.co.kr/template/m/frame/downloadlist/16335?q=1368)
 - 이미지 - 100,000장
 - 가공 데이터 - 100,000장
 - 데이터 구성 비율
