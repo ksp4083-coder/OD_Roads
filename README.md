@@ -28,6 +28,7 @@
   y_{\text{center}} &= \frac{y_{\min} + y_{\max}}{2}
   \end{aligned}
   $$
+  
 <br>
 <br>
 
