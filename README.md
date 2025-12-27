@@ -13,16 +13,8 @@
   </p> <br><br>
 - json 파일 내용 설명 <br>
   <p align="center">
-  <img width="495" height="156.5" alt="image" src="https://github.com/user-attachments/assets/9e9b4da5-d74c-4406-a31c-176b8cda1cee" />
-  </p>
-
-
-- json 파일 속성
-
-
-  <img width="590" height="182" alt="Image" src="https://github.com/user-attachments/assets/69e214f6-9391-41f0-a44a-8d6c3b80aba1" />
-
-<br>
+  <img width="594" height="187.8" alt="image" src="https://github.com/user-attachments/assets/9e9b4da5-d74c-4406-a31c-176b8cda1cee" />
+  </p> <br>
 
 ## 2. Progress
 ### 2-1. Normarlization
