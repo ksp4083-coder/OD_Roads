@@ -29,7 +29,7 @@ x_{\text{norm}} = \frac{x_{\text{center}}}{W_{\text{img}}}, \quad y_{\text{norm}
 $$
 <br><br>
 
-### 2-2. Model Selection & Optimization
+### 2.2. Model Selection & Optimization
 
 본 프로젝트에서는 최적의 탐지 성능을 확보하기 위해 YOLOv8의 모든 모델 라인업(n, s, m, l, x)을 대상으로 비교 실험을 수행하였습니다. <br>
 
@@ -40,18 +40,51 @@ $$
 
 <div align="center">
   
-| 모델 | 에폭 | 배치 크기 | 학습 시간 | 모델 구조 | mAP_{50} |
-| :--: | :--: | :------: | :-------: | :-------: | :-----:
-| YOLOv8n | 100 | 64 | 21.67 hours | 225 layers, 3,012,798 parameters | 0.71 |
-| YOLOv8s | 100 | 64 | 22.23 hours | 225 layers, 11,139,470 parameters | 0.821 |
-| YOLOv8m | 100 | 64 | 23.34 hours | 295 layers, 25,862,110 parameters | 0.866 |
-| YOLOv8l | 100 | 64 | 24.17 hours | 365 layers, 43,637,550 parameters | 0.888 |
-| YOLOv8x | 100 | 64 | 28.61 hours | 365 layers, 68,162,238 parameters | 0.901 |
-| yolov8x.pt | 620 | 64 | 약 7일 21시간 | 365 layers, 68,162,238 parameters | 0.933 |
+| Model Variant | Input Size | Params (M) | mAP50 (Base) |
+| :--: | :--: | :------: | :-----:
+| YOLOv8n | 640 | 3.01 | 0.71 |
+| YOLOv8s | 640 | 11.14 | 0.821 |
+| YOLOv8m | 640 | 25.86 | 0.866 |
+| YOLOv8l | 640 | 43.64 | 0.888 |
+| **YOLOv8x (Selected)** | **640** | **68.16** | **0.901** |
 
 </div>
 
 <br>
+
+#### Intensive Training for Performance Boost
+최종 선정된 **YOLOv8x** 모델의 탐지 성능을 극대화하기 위해 추가 최적화 단계를 거쳤습니다.
+
+**[ Final Training  Configuration ]**
+<div align="center">
+
+| Parameter | Value | Description |
+| :--- | :--- | :--- |
+| **Model Variant** | **YOLOv8x** | 가장 큰 모델 라인업 선택 |
+| **Epochs** | **620** | 탐지 성능 극대화를 위한 확장 학습 |
+| **Batch Size** | **64** | GPU 메모리(VRAM) 최적화 크기 |
+| **Image Size** | **640 x 640** | 표준 입력 해상도 |
+| **Optimizer** | **SGD** | Momentum: 0.937 적용 |
+| **Learning Rate** | **0.01 (lr0)** | 초기 학습률 |
+| **Total Training Time** | **약 7일 21시간** | 일주일 이상의 정밀 파인튜닝 |
+| **Hardware** | **NVIDIA A100 GPU** | 고성능 가속기 활용 |
+
+</div>
+
+- **결과**: 추가 학습을 통해 $mAP_{50}$ 수치가 **0.901에서 0.933으로 약 3.2%p 향상**되었으며, 도로 주행 환경에서의 객체 탐지 정밀도를 확보했습니다.
+
+#### 2.3. Training Results Visualization
+모델의 학습 과정 및 최종 성능을 시각화한 결과입니다.
+
+<div align="center">
+
+**[ Loss & mAP Curves ]**
+<img width="1223" height="599" alt="image" src="https://github.com/user-attachments/assets/9100d82f-2605-4877-9409-935de240d40c" />
+
+> **Figure 1**: Epoch에 따른 Loss 감소 및 mAP 상승 추이 (최종 mAP@50: 0.933)
+
+</div>
+
 
 ### 2-6. 모델 시연 영상
 
