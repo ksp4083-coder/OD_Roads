@@ -72,8 +72,8 @@ $$
 | **Image Size** | **640 x 640** | 표준 입력 해상도 |
 | **Optimizer** | **SGD** | Momentum: 0.937 적용 |
 | **Learning Rate** | **0.01 (lr0)** | 초기 학습률 |
-| **Total Training Time** | **약 7일 21시간** | 일주일 이상의 정밀 파인튜닝 |
-| **Hardware** | **NVIDIA A100 GPU** | 고성능 가속기 활용 |
+| **Total Training Time** | **약 7일 21시간** | 일주일 이상 학습 |
+| **Hardware** | **NVIDIA A100 GPU** | DSC 공유대학 고성능 GPU 서버 활용 |
 
 <br>
 
