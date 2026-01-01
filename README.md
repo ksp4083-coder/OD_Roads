@@ -73,13 +73,13 @@ $$
 
 - **결과**: 추가 학습을 통해 $mAP_{50}$ 수치가 **0.901에서 0.933으로 약 3.2%p 향상**되었으며, 도로 주행 환경에서의 객체 탐지 정밀도를 확보했습니다.
 
-#### 2.3. Training Results Visualization
+### 2.3. Training Results Visualization
 모델의 학습 과정 및 최종 성능을 시각화한 결과입니다.
 
 <div align="center">
 
 **[ Loss & mAP Curves ]**
-<img width="1223" height="599" alt="image" src="https://github.com/user-attachments/assets/9100d82f-2605-4877-9409-935de240d40c" />
+<img width="622.5" height="299.5" alt="image" src="https://github.com/user-attachments/assets/9100d82f-2605-4877-9409-935de240d40c" />
 
 > **Figure 1**: Epoch에 따른 Loss 감소 및 mAP 상승 추이 (최종 mAP@50: 0.933)
 
