@@ -30,12 +30,6 @@ x_{\text{norm}} = \frac{x_{\text{center}}}{W_{\text{img}}}, \quad y_{\text{norm}
 \end{aligned}
 $$
 
-$$ \large 
-\begin{aligned} 
-x_{\text{norm}} = \frac{x_{\text{center}}}{W_{\text{img}}}, \quad y_{\text{norm}} = \frac{y_{\text{center}}}{H_{\text{img}}} \\ w_{\text{norm}} = \frac{w_{\text{BBox}}}{W_{\text{img}}}, \quad h_{\text{norm}} = \frac{h_{\text{BBox}}}{H_{\text{img}}} 
-\end{aligned}
-$$
-
 <br>
 
 ### 2.2. Model Selection & Optimization
@@ -105,9 +99,18 @@ $$
 
 <br>
 
-### 2-6. 모델 시연 영상
+### 3. Inference Demonstration
+- 개발한 최종 모델을 활용해 주간 및 야간 도로 주행 환경에서 실시간 객체 탐지 성능을 검증하였습니다.
 
-- 개발한 최종 모델을 활용해 주간/야간 도로 주행 영상에서 객체 탐지 수행
+<div align="center">
+
+| 주간 주행 (Daytime) | 야간 주행 (Nighttime) |
+| :---: | :---: |
+| [▶ 영상 보기](https://github.com/user-attachments/assets/1867900f-da03-4578-b419-428d62d5cc6e) | [▶ 영상 보기](https://github.com/user-attachments/assets/45fd9091-5d0a-4dc5-b9da-cfb9ff2c104a) |
+
+**Figure 2**: Real-world inference testing in various lighting conditions.
+
+</div>
 
 - [주간](https://github.com/user-attachments/assets/1867900f-da03-4578-b419-428d62d5cc6e)
 
