@@ -17,7 +17,7 @@
   </p><br>
 
 ## 2. Development Process
-### 2.1. Data Preprocessing (데이터 전처리.ipynb)
+### 2.1 Data Preprocessing (데이터 전처리.ipynb)
 - 객체 탐지 YOLOv8 모델 학습을 위한 데이터 전처리 과정
 - 가공된 객체 위치 정보 Bounding Box 좌표를 0 ~ 1 사이로 정규화
 - 정규화 식은 아래와 같으며 Python 코드로 구현 <br>
@@ -29,11 +29,11 @@ x_{\text{norm}} = \frac{x_{\text{center}}}{W_{\text{img}}}, \quad y_{\text{norm}
 $$
 <br><br>
 
-### 2.2. Model Selection & Optimization
+### 2.2 Model Selection & Optimization
 
 본 프로젝트에서는 최적의 탐지 성능을 확보하기 위해 YOLOv8의 모든 모델 라인업(n, s, m, l, x)을 대상으로 비교 실험을 수행하였습니다. <br>
 
-#### Model Comparison & Selection
+#### 2.2.1 Model Comparison & Selection
 - **실험 환경**: 동일한 학습 파라미터 및 하드웨어 환경에서 수행
 - **평가 지표**: $mAP_{50}$ (mAP at IoU=0.5)
 - **실험 결과**: 5가지 모델 중 **YOLOv8x (Extra Large)** 모델이 가장 높은 정확도를 기록하여 최종 모델로 선정되었습니다.
@@ -52,7 +52,7 @@ $$
 
 <br>
 
-#### Intensive Training for Performance Boost
+#### 2.2.2 Intensive Training for Performance Boost
 최종 선정된 **YOLOv8x** 모델의 탐지 성능을 극대화하기 위해 추가 최적화 단계를 거쳤습니다.
 
 <div align="center">
@@ -73,6 +73,8 @@ $$
 </div>
 
 - **결과**: 추가 학습을 통해 $mAP_{50}$ 수치가 **0.901에서 0.933으로 약 3.2%p 향상**되었으며, 도로 주행 환경에서의 객체 탐지 정밀도를 확보했습니다.
+
+<br>
 
 ### 2.3. Training Results Visualization
 모델의 학습 과정 및 최종 성능을 시각화한 결과입니다.
