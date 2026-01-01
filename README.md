@@ -55,8 +55,9 @@ $$
 #### Intensive Training for Performance Boost
 최종 선정된 **YOLOv8x** 모델의 탐지 성능을 극대화하기 위해 추가 최적화 단계를 거쳤습니다.
 
-**[ Final Training  Configuration ]**
 <div align="center">
+
+**[ Final Training  Configuration ]**
 
 | Parameter | Value | Description |
 | :--- | :--- | :--- |
