@@ -29,8 +29,9 @@ x_{\text{norm}} = \frac{x_{\text{center}}}{W_{\text{img}}}, \quad y_{\text{norm}
 $$
 <br>
 
-### 2-2. Model Architecture
-![YOLOv8 architecture](https://github.com/user-attachments/assets/815d10f7-5010-4a3d-bfa3-2fdbf395f1ee)
+### 2-2. Model Selection & Optimization
+
+본 프로젝트에서는 최적의 탐지 성능을 확보하기 위해 YOLOv8의 모든 모델 라인업(n, s, m, l, x)을 대상으로 비교 실험을 수행하였습니다.
 
 
 
