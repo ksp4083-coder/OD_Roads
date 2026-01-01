@@ -38,14 +38,18 @@ $$
 - **평가 지표**: $mAP_{50}$ (mAP at IoU=0.5)
 - **실험 결과**: 5가지 모델 중 **YOLOv8x (Extra Large)** 모델이 가장 높은 정확도를 기록하여 최종 모델로 선정되었습니다.
 
-| 모델 | 에폭 | 배치 크기 | 학습 시간 | 모델 구조 | mAP@50 |
+<div align="center">
+  
+| 모델 | 에폭 | 배치 크기 | 학습 시간 | 모델 구조 | mAP_{50} |
 | :--: | :--: | :------: | :-------: | :-------: | :-----:
-| yolov8n.pt | 100 | 64 | 21.67 hours | 225 layers, 3,012,798 parameters | 0.71 |
-| yolov8s.pt | 100 | 64 | 22.23 hours | 225 layers, 11,139,470 parameters | 0.821 |
-| yolov8m.pt | 100 | 64 | 23.34 hours | 295 layers, 25,862,110 parameters | 0.866 |
-| yolov8l.pt | 100 | 64 | 24.17 hours | 365 layers, 43,637,550 parameters | 0.888 |
-| yolov8x.pt | 100 | 64 | 28.61 hours | 365 layers, 68,162,238 parameters | 0.901 |
+| YOLOv8n | 100 | 64 | 21.67 hours | 225 layers, 3,012,798 parameters | 0.71 |
+| YOLOv8s | 100 | 64 | 22.23 hours | 225 layers, 11,139,470 parameters | 0.821 |
+| YOLOv8m | 100 | 64 | 23.34 hours | 295 layers, 25,862,110 parameters | 0.866 |
+| YOLOv8l | 100 | 64 | 24.17 hours | 365 layers, 43,637,550 parameters | 0.888 |
+| YOLOv8x | 100 | 64 | 28.61 hours | 365 layers, 68,162,238 parameters | 0.901 |
 | yolov8x.pt | 620 | 64 | 약 7일 21시간 | 365 layers, 68,162,238 parameters | 0.933 |
+
+</div>
 
 <br>
 
