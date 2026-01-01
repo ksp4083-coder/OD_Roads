@@ -110,10 +110,6 @@ $$
 
 **Figure 2**: Real-world inference testing in various lighting conditions.
 
-https://github.com/user-attachments/assets/b1a795df-9a56-4acc-aa6f-d2b1355a1a8c
-
-https://github.com/user-attachments/assets/5f86ae17-928f-4ec0-bae6-9f439eda1a05
-
 </div>
 
 
