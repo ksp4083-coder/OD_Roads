@@ -26,8 +26,7 @@
 
 $$ \large
 \begin{aligned}
-x_{\text{norm}} = \frac{x_{\text{center}}}{W_{\text{img}}}, \quad w_{\text{norm}} = \frac{w_{\text{BBox}}}{W_{\text{img}}}, \\
-y_{\text{norm}} = \frac{y_{\text{center}}}{H_{\text{img}}}, \quad h_{\text{norm}} = \frac{h_{\text{BBox}}}{H_{\text{img}}}
+x_{\text{norm}} = \frac{x_{\text{center}}}{W_{\text{img}}}, \quad y_{\text{norm}} = \frac{y_{\text{center}}}{H_{\text{img}}}, \quad w_{\text{norm}} = \frac{w_{\text{BBox}}}{W_{\text{img}}}, \quad h_{\text{norm}} = \frac{h_{\text{BBox}}}{H_{\text{img}}}
 \end{aligned}
 $$
 
