@@ -30,6 +30,12 @@ x_{\text{norm}} = \frac{x_{\text{center}}}{W_{\text{img}}}, \quad y_{\text{norm}
 \end{aligned}
 $$
 
+$$ \large 
+\begin{aligned} 
+x_{\text{norm}} = \frac{x_{\text{center}}}{W_{\text{img}}}, \quad y_{\text{norm}} = \frac{y_{\text{center}}}{H_{\text{img}}} \ w_{\text{norm}} = \frac{w_{\text{BBox}}}{W_{\text{img}}}, \quad h_{\text{norm}} = \frac{h_{\text{BBox}}}{H_{\text{img}}} 
+\end{aligned}
+$$
+
 <br>
 
 ### 2.2. Model Selection & Optimization
@@ -84,7 +90,7 @@ $$
 
 <br>
 
-### 2.3. Training Results Visualization
+### 2.5. Training Results Visualization
 모델의 학습 과정 및 최종 성능을 시각화한 결과입니다.
 
 <div align="center">
