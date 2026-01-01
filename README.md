@@ -34,7 +34,7 @@ $$
 
 ### 2.2. Model Selection & Optimization
 
-본 프로젝트에서는 최적의 탐지 성능을 확보하기 위해 YOLOv8의 모든 모델 라인업(n, s, m, l, x)을 대상으로 비교 실험을 수행하였습니다. 
+본 프로젝트에서는 도로 주행 환경에서 최적의 탐지 성능을 확보하기 위해 YOLOv8의 모든 모델 라인업(n, s, m, l, x)을 대상으로 성능 비교 실험을 수행하였습니다. 
 
 <br>
 
@@ -58,7 +58,7 @@ $$
 <br>
 
 ### 2.4. Intensive Training for Performance Boost
-최종 선정된 **YOLOv8x** 모델의 탐지 성능을 극대화하기 위해 추가 최적화 단계를 거쳤습니다.
+최종 선정된 **YOLOv8x** 모델의 탐지 성능을 극대화하기 위한 최적화 단계
 
 <div align="center">
 
