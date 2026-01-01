@@ -14,7 +14,7 @@
 - json 파일 내용 설명 <br>
   <p align="center">
   <img width="594" height="187.8" alt="image" src="https://github.com/user-attachments/assets/9e9b4da5-d74c-4406-a31c-176b8cda1cee" />
-  </p>
+  </p><br>
 
 ## 2. Development Process
 ### 2.1. Data Preprocessing (데이터 전처리.ipynb)
