@@ -74,6 +74,7 @@ $$
 | **Learning Rate** | **0.01 (lr0)** | 초기 학습률 |
 | **Total Training Time** | **약 7일 21시간** | 일주일 이상 학습 |
 | **Hardware** | **NVIDIA A100 GPU** | DSC 공유대학 고성능 GPU 서버 활용 |
+| **mAP50** | **0.933** | IoU = 0.5에서 mAP 값 |
 
 <br>
 
