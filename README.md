@@ -79,6 +79,7 @@ $$
 <div align="center">
 
 **[ Loss & mAP Curves ]**
+
 <img width="622.5" height="299.5" alt="image" src="https://github.com/user-attachments/assets/9100d82f-2605-4877-9409-935de240d40c" />
 
 > **Figure 1**: Epoch에 따른 Loss 감소 및 mAP 상승 추이 (최종 mAP@50: 0.933)
