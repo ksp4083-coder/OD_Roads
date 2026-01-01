@@ -26,9 +26,24 @@ $$ \large
 \begin{aligned}
 x_{\text{norm}} = \frac{x_{\text{center}}}{W_{\text{img}}}, \quad y_{\text{norm}} = \frac{y_{\text{center}}}{H_{\text{img}}}, \quad w_{\text{norm}} = \frac{w_{\text{BBox}}}{W_{\text{img}}}, \quad h_{\text{norm}} = \frac{h_{\text{BBox}}}{H_{\text{img}}}
 \end{aligned}
-$$
+$$<br>
 
-### 2-2. 모델 학습 및 검증
+### 2-2. Model Architecture
+![YOLOv8 architecture](https://github.com/user-attachments/assets/815d10f7-5010-4a3d-bfa3-2fdbf395f1ee)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - **검증 결과** <br>
 
 | 모델 | 에폭 | 배치 크기 | 학습 시간 | 모델 구조 | mAP@50 |
