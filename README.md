@@ -106,17 +106,13 @@ $$
 
 | 주간 주행 (Daytime) | 야간 주행 (Nighttime) |
 | :---: | :---: |
-| https://github.com/user-attachments/assets/b1a795df-9a56-4acc-aa6f-d2b1355a1a8c | https://github.com/user-attachments/assets/5f86ae17-928f-4ec0-bae6-9f439eda1a05 |
-
+| [▶ 영상 보기](https://github.com/user-attachments/assets/1867900f-da03-4578-b419-428d62d5cc6e) | [▶ 영상 보기](https://github.com/user-attachments/assets/45fd9091-5d0a-4dc5-b9da-cfb9ff2c104a) |
+**Figure 2**: Real-world inference testing in various lighting conditions.
 
 https://github.com/user-attachments/assets/5f86ae17-928f-4ec0-bae6-9f439eda1a05
 
 
 https://github.com/user-attachments/assets/b1a795df-9a56-4acc-aa6f-d2b1355a1a8c
-
-
-
-**Figure 2**: Real-world inference testing in various lighting conditions.
 
 </div>
 
