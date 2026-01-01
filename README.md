@@ -67,7 +67,7 @@ $$
 | Parameter | Value | Description |
 | :--- | :--- | :--- |
 | **Model Variant** | **YOLOv8x** | 가장 큰 모델 라인업 선택 |
-| **Epochs** | **620** | 탐지 성능 극대화를 위한 확장 학습 |
+| **Epochs** | **620** | 탐지 성능 극대화를 위한 추가 학습 |
 | **Batch Size** | **64** | GPU 메모리(VRAM) 최적화 크기 |
 | **Image Size** | **640 x 640** | 표준 입력 해상도 |
 | **Optimizer** | **SGD** | Momentum: 0.937 적용 |
