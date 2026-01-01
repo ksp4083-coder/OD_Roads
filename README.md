@@ -99,7 +99,7 @@ $$
 
 <br>
 
-### 3. Inference Demonstration
+## 3. Inference Demonstration
 - 개발한 최종 모델을 활용해 주간 및 야간 도로 주행 환경에서 실시간 객체 탐지 성능을 검증하였습니다.
 
 <div align="center">
