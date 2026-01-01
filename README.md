@@ -27,11 +27,11 @@ $$ \large
 x_{\text{norm}} = \frac{x_{\text{center}}}{W_{\text{img}}}, \quad y_{\text{norm}} = \frac{y_{\text{center}}}{H_{\text{img}}}, \quad w_{\text{norm}} = \frac{w_{\text{BBox}}}{W_{\text{img}}}, \quad h_{\text{norm}} = \frac{h_{\text{BBox}}}{H_{\text{img}}}
 \end{aligned}
 $$
-<br>
+<br><br>
 
 ### 2-2. Model Selection & Optimization
 
-본 프로젝트에서는 최적의 탐지 성능을 확보하기 위해 YOLOv8의 모든 모델 라인업(n, s, m, l, x)을 대상으로 비교 실험을 수행하였습니다.
+본 프로젝트에서는 최적의 탐지 성능을 확보하기 위해 YOLOv8의 모든 모델 라인업(n, s, m, l, x)을 대상으로 비교 실험을 수행하였습니다. <br>
 
 #### Model Comparison & Selection
 - **실험 환경**: 동일한 학습 파라미터 및 하드웨어 환경에서 수행
